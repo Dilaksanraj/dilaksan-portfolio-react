@@ -72,7 +72,7 @@ export default function ContactMe(props) {
       <div className="central-form">
         <div className="col">
           <h2 className="title">
-            <Typical loop={Infinity} steps={["Get In Touch 📧", 1000]} />
+            <Typical loop={Infinity} steps={["Get In Touch 📧", 1000, "+33 96 80 94 270", 4000, "dilaksanraj@gmail.com",5000]} />
           </h2>{" "}
           <a href="https://www.facebook.com/dilaksanraj.alexsander/">
             <i className="fa fa-facebook-square" />
@@ -91,8 +91,7 @@ export default function ContactMe(props) {
           </a>
         </div>
         <div className="col">
-          <p>+33 96 80 94 270</p>
-          <p>dilaksanraj@gmail.com</p>
+          
         </div>
         <div className="back-form">
           <div className="img-back">
