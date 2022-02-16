@@ -62,7 +62,7 @@ export default function ContactMe(props) {
     } catch (error) {
       setBool(true);
       console.log(error);
-      
+
     }
   };
 
@@ -75,20 +75,24 @@ export default function ContactMe(props) {
             <Typical loop={Infinity} steps={["Get In Touch 📧", 1000]} />
           </h2>{" "}
           <a href="https://www.facebook.com/dilaksanraj.alexsander/">
-                <i className="fa fa-facebook-square" />
-              </a>
-              <a href="https://www.linkedin.com/in/dilaksanraj-alexsandar">
-              <i className="fa fa-linkedin"></i>
-              </a>
-              <a href="https://www.instagram.com/dilaksan_raj/">
-                <i className="fa fa-instagram" />
-              </a>
-              <a href="#">
-                <i className="fa fa-youtube-square" />
-              </a>
-              <a href="#">
-                <i className="fa fa-twitter" />
-              </a>
+            <i className="fa fa-facebook-square" />
+          </a>
+          <a href="https://www.linkedin.com/in/dilaksanraj-alexsandar">
+            <i className="fa fa-linkedin"></i>
+          </a>
+          <a href="https://www.instagram.com/dilaksan_raj/">
+            <i className="fa fa-instagram" />
+          </a>
+          <a href="#">
+            <i className="fa fa-youtube-square" />
+          </a>
+          <a href="#">
+            <i className="fa fa-twitter" />
+          </a>
+        </div>
+        <div className="col">
+          <p>+33 96 80 94 270</p>
+          <p>dilaksanraj@gmail.com</p>
         </div>
         <div className="back-form">
           <div className="img-back">
